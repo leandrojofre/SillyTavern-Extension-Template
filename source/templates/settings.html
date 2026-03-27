@@ -7,18 +7,18 @@ You might want to add additional HTML elements to ST. It's good practice to sepa
 			<b>EXTENSION_NAME</b>
 			<div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
 		</div>
-		<div id="EXTENSION_NAME-settings-window" class="inline-drawer-content" style="padding: 0.5vh;">
 
+		<div id="EXTENSION_NAME-settings-window" class="inline-drawer-content p-15px">
 			<div class="flex-container flex-column separator-bottom">
 				<b>Settings</b>
 
 				<label class="flex-container">
-					<input id="EXTENSION_NAME-activate-extension" EXTENSION_NAME-setting="enabled" type="checkbox" />
+					<input id="EXTENSION_NAME-enabled" EXTENSION_NAME-setting="enabled" type="checkbox" />
 					Enable/Disable the extension
 				</label>
 			</div>
 
-			<div class="flex-container flex-column separator-bottom">
+			<div class="flex-container flex-column mb-10px">
 				<b>Debug settings</b>
 
 				<div class="flex-container">
@@ -27,12 +27,10 @@ You might want to add additional HTML elements to ST. It's good practice to sepa
 				</div>
 
 				<label class="flex-container">
-					<input id="EXTENSION_NAME-activate-debug" EXTENSION_NAME-setting="debug" type="checkbox" />
+					<input id="EXTENSION_NAME-debug" EXTENSION_NAME-setting="debug" type="checkbox" />
 					Enable/Disable the debug console logs
 				</label>
 			</div>
-
-			<hr class="sysHR" />
 		</div>
 	</div>
 </div>
